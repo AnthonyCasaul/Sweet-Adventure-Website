@@ -34,8 +34,8 @@ header("location:index.php?page=home");
 	    position: fixed;
 	    top:0;
 	    left: 0;
-	    background-image: url('assets/uploads/background.webp');
-	    background-size: cover;
+	    background-image: url('assets/uploads/bg3.jpg');
+	    background-size: 50%, 75%;
 	}
 	main#main{
 		width:100%;
@@ -56,7 +56,7 @@ header("location:index.php?page=home");
   			<div class="card col-md-3 ml-5">
   				<div class="card-body py-5 px-1">
   					<h4 class="text-dark text-center mb-5"><!-- ?php echo $_SESSION['system']['name'] ?> -->
-  						<img src="assets/uploads/logo.png" width="300px">
+  						<img src="assets/uploads/logo1.png" width="300px">
   					</h4>
   					<form id="login-form" >
   						<div class="form-group">
@@ -79,7 +79,7 @@ header("location:index.php?page=home");
 						    <input type="checkbox" class="form-check-input" id="exampleCheck1">
 						    <label class="form-check-label mt-1" for="exampleCheck1"> Remember me</label>
 						  </div>
-  						<center><button class="btn col-md-12 btn-primary">Login</button></center>
+  						<center class="btnbg"><button class="btn col-md-12 btn-primary loginbtn">Login</button></center>
   					</form>
   				</div>
   			</div>
@@ -87,7 +87,7 @@ header("location:index.php?page=home");
   		</div>
   </main>
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <!-- <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a> -->
 
 
 </body>
