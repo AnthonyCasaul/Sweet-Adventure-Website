@@ -17,7 +17,7 @@
   		</div>
       <div class="col-md-2 float-left text-dark">
         <!-- <large><b><?php echo isset($_SESSION['system']['name']) ? $_SESSION['system']['name'] : '' ?></b></large> -->
-         <img src="assets/uploads/logo.png" width="180px">
+         <img src="assets/uploads/logo1.png" width="180px">
       </div>
       <div id="google_translate_element"></div>
 	  	<div class="float-right mt-3">
